@@ -1,6 +1,6 @@
 package com.demo.basic;
 
-public class ThreadTest {
+public final class ThreadDemo {
 
     public static class MyThread extends Thread {
         @Override
@@ -10,13 +10,13 @@ public class ThreadTest {
     }
 
     public static void main(String[] args) {
-        MyThread myThread = new ThreadTest.MyThread();
+        MyThread myThread = new ThreadDemo.MyThread();
         myThread.start();
 
-        AnotherThread anotherThread = new AnotherThread();
-        anotherThread.start();
+//        AnotherThread anotherThread = new AnotherThread();
+//        anotherThread.start();
 
-        ThirdThread thirdThread = new ThreadTest().new ThirdThread();
+        ThirdThread thirdThread = new ThreadDemo().new ThirdThread();
         thirdThread.start();
     }
 
@@ -28,9 +28,9 @@ public class ThreadTest {
     }
 }
 
-class AnotherThread extends Thread {
-    @Override
-    public void run() {
-        System.out.println("I am another child thread.");
-    }
-}
+//class AnotherThread extends Thread {
+//    @Override
+//    public void run() {
+//        System.out.println("I am another child thread.");
+//    }
+//}

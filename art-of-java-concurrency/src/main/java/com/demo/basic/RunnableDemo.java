@@ -1,6 +1,6 @@
 package com.demo.basic;
 
-public class RunnableTest {
+public final class RunnableDemo {
 
     public static class MyRunnable implements Runnable {
         @Override
