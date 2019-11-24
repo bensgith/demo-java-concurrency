@@ -4,6 +4,7 @@
     <list default="true" id="8233f235-0bee-4791-b1cc-23da28d4664a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beauty-of-java-concurrency/beauty-of-java-concurrency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/beauty-of-java-concurrency/beauty-of-java-concurrency.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/art-of-java-concurrency/target/" />
@@ -30,121 +31,148 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/src/main/java/com/demo/basic/ThreadNotSafeCount.java">
+        <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/src/main/java/com/demo/basic/ThreadLocalDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="32">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="281" column="30" selection-start-line="281" selection-start-column="30" selection-end-line="281" selection-end-column="30" />
               <folding>
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#15704#15705#0" expanded="true" />
+                <element signature="e#15770#15771#0" expanded="true" />
+                <element signature="e#37304#37305#0" expanded="true" />
+                <element signature="e#37347#37348#0" expanded="true" />
+                <element signature="e#66012#66013#0" expanded="true" />
+                <element signature="e#66038#66039#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+        <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter1ContextTestDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="307" column="32" selection-start-line="307" selection-start-column="32" selection-end-line="307" selection-end-column="32" />
+            <state relative-caret-position="368">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/Striped64.java">
+        <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter2AtomicOperationDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+            <state relative-caret-position="161">
+              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/LongAccumulator.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+            <state relative-caret-position="5">
+              <caret line="141" column="16" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
+              <folding>
+                <element signature="e#1762#1763#0" expanded="true" />
+                <element signature="e#1798#1799#0" expanded="true" />
+                <element signature="e#2032#2033#0" expanded="true" />
+                <element signature="e#2060#2061#0" expanded="true" />
+                <element signature="e#2195#2196#0" expanded="true" />
+                <element signature="e#2227#2228#0" expanded="true" />
+                <element signature="e#2671#2672#0" expanded="true" />
+                <element signature="e#2742#2743#0" expanded="true" />
+                <element signature="e#4021#4022#0" expanded="true" />
+                <element signature="e#4085#4086#0" expanded="true" />
+                <element signature="e#4504#4505#0" expanded="true" />
+                <element signature="e#4572#4573#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadLocalRandom.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2580">
-              <caret line="219" column="36" selection-start-line="219" selection-start-column="36" selection-end-line="219" selection-end-column="36" />
+            <state relative-caret-position="144">
+              <caret line="42" column="63" lean-forward="true" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/src/main/java/com/demo/advance/AtomicLongDemo.java">
+        <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4MultiThreadDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+            <state relative-caret-position="96">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/LongAdder.java">
+        <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4ThreadPriorityDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2255">
-              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+            <state relative-caret-position="547">
+              <caret line="66" column="15" lean-forward="true" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
+        <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4ThreadStateDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4ThreadInterruptionDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4ThreadShutdownDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="199" column="28" selection-start-line="199" selection-start-column="28" selection-end-line="199" selection-end-column="28" />
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
-                <element signature="e#5288#5289#0" expanded="true" />
-                <element signature="e#5359#5360#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="96" column="34" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
-              <folding>
-                <element signature="e#3422#3423#0" expanded="true" />
-                <element signature="e#3450#3451#0" expanded="true" />
-                <element signature="e#3528#3529#0" expanded="true" />
-                <element signature="e#3553#3554#0" expanded="true" />
-                <element signature="e#5030#5031#0" expanded="true" />
-                <element signature="e#5070#5071#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="3247" column="59" selection-start-line="3247" selection-start-column="59" selection-end-line="3247" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/src/main/java/com/demo/advance/CopyOnWriteArrayListDemo.java">
+        <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/SleepUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="64">
+              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -183,7 +211,6 @@
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/basic/DeadLockDemo.java" />
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/basic/JoinDemo.java" />
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/basic/ThreadLocalDemo.java" />
-        <option value="$PROJECT_DIR$/art-of-java-concurrency/pom.xml" />
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/basic/ThreadNotSafeCount.java" />
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/basic/WaitAndNotifyDemo.java" />
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/basic/ThreadDemo.java" />
@@ -191,6 +218,15 @@
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/advance/AtomicDemo.java" />
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/advance/AtomicLongDemo.java" />
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/advance/CopyOnWriteArrayListDemo.java" />
+        <option value="$PROJECT_DIR$/art-of-java-concurrency/pom.xml" />
+        <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/ContextTestDemo.java" />
+        <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter2AtomicOperationDemo.java" />
+        <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4MultiThreadDemo.java" />
+        <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4ThreadPriorityDemo.java" />
+        <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4ThreadStateDemo.java" />
+        <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4ThreadInterruptionDemo.java" />
+        <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4ThreadShutdownDemo.java" />
+        <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/SleepUtils.java" />
       </list>
     </option>
   </component>
@@ -234,42 +270,82 @@
           <expand>
             <path>
               <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="art-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="art-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="art-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="art-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="art-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,7 +359,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16015625" />
     <property name="project.structure.side.proportion" value="0.3505747" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -300,20 +376,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CopyOnWriteArrayListDemo">
+  <component name="RunManager" selected="Application.Chapter4ThreadShutdownDemo">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicLongDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.advance.AtomicLongDemo" />
-      <module name="beauty-of-java-concurrency" />
+    <configuration name="Chapter4MultiThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.Chapter4MultiThreadDemo" />
+      <module name="art-of-java-concurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.advance.*" />
+          <option name="PATTERN" value="com.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,13 +397,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyOnWriteArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.advance.CopyOnWriteArrayListDemo" />
-      <module name="beauty-of-java-concurrency" />
+    <configuration name="Chapter4ThreadInterruptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.Chapter4ThreadInterruptionDemo" />
+      <module name="art-of-java-concurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.advance.*" />
+          <option name="PATTERN" value="com.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,13 +411,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaemonThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.basic.DaemonThreadDemo" />
-      <module name="beauty-of-java-concurrency" />
+    <configuration name="Chapter4ThreadPriorityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.Chapter4ThreadPriorityDemo" />
+      <module name="art-of-java-concurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.basic.*" />
+          <option name="PATTERN" value="com.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,13 +425,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.basic.DeadLockDemo" />
-      <module name="beauty-of-java-concurrency" />
+    <configuration name="Chapter4ThreadShutdownDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.Chapter4ThreadShutdownDemo" />
+      <module name="art-of-java-concurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.basic.*" />
+          <option name="PATTERN" value="com.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,13 +439,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.basic.ThreadLocalDemo" />
-      <module name="beauty-of-java-concurrency" />
+    <configuration name="Chapter4ThreadStateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.Chapter4ThreadStateDemo" />
+      <module name="art-of-java-concurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.basic.*" />
+          <option name="PATTERN" value="com.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,11 +532,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CopyOnWriteArrayListDemo" />
-        <item itemvalue="Application.AtomicLongDemo" />
-        <item itemvalue="Application.ThreadLocalDemo" />
-        <item itemvalue="Application.DaemonThreadDemo" />
-        <item itemvalue="Application.DeadLockDemo" />
+        <item itemvalue="Application.Chapter4ThreadShutdownDemo" />
+        <item itemvalue="Application.Chapter4ThreadInterruptionDemo" />
+        <item itemvalue="Application.Chapter4ThreadStateDemo" />
+        <item itemvalue="Application.Chapter4ThreadPriorityDemo" />
+        <item itemvalue="Application.Chapter4MultiThreadDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -475,12 +551,12 @@
       <option name="presentableId" value="Default" />
       <updated>1574270995478</updated>
       <workItem from="1574271004355" duration="2069000" />
-      <workItem from="1574318336577" duration="21524000" />
+      <workItem from="1574318336577" duration="36008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23593000" />
+    <option name="totallyTimeSpent" value="38077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -496,10 +572,10 @@
       <window_info anchor="bottom" auto_hide="true" id="Messages" order="1" weight="0.3283767" />
       <window_info anchor="bottom" auto_hide="true" id="Version Control" order="2" weight="0.329602" />
       <window_info anchor="bottom" auto_hide="true" id="Spring" order="3" weight="0.329602" />
-      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="4" weight="0.329602" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="4" weight="0.3283767" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" auto_hide="true" id="Run" order="7" weight="0.36802974" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="7" weight="0.51425034" />
       <window_info anchor="bottom" auto_hide="true" id="Debug" order="8" weight="0.29726368" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -514,7 +590,7 @@
       <window_info anchor="right" auto_hide="true" id="Bean Validation" order="5" weight="0.3297568" />
       <window_info anchor="right" auto_hide="true" id="Database" order="6" weight="0.3297568" />
       <window_info anchor="right" id="Commander" order="7" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" auto_hide="true" content_ui="combo" id="Hierarchy" order="8" weight="0.24964234" />
       <window_info anchor="right" auto_hide="true" id="Maven" order="9" weight="0.3297568" />
     </layout>
   </component>
@@ -577,21 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="181" column="25" selection-start-line="181" selection-start-column="25" selection-end-line="181" selection-end-column="25" />
-          <folding>
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-            <element signature="e#37304#37305#0" expanded="true" />
-            <element signature="e#37347#37348#0" expanded="true" />
-            <element signature="e#66012#66013#0" expanded="true" />
-            <element signature="e#66038#66039#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/target/classes/com/demo/basic/WaitAndNotifyDemo.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -610,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/target/classes/com/demo/basic/ThreadNotSafeCount.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -624,13 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/src/main/java/com/demo/basic/ThreadLocalDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -658,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/src/main/java/com/demo/basic/JoinDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/src/main/java/com/demo/basic/RunnableDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -672,17 +712,6 @@
           <folding>
             <element signature="e#155#156#0" expanded="true" />
             <element signature="e#229#230#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/src/main/java/com/demo/basic/ThreadDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -714,13 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2255">
           <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="307" column="32" selection-start-line="307" selection-start-column="32" selection-end-line="307" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -797,11 +819,183 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/src/main/java/com/demo/advance/CopyOnWriteArrayListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="320">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" selection-start-line="10" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/src/main/java/com/demo/basic/ThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/src/main/java/com/demo/basic/JoinDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter1ContextTestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="357" column="21" selection-start-line="357" selection-start-column="21" selection-end-line="357" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="141" column="16" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
+          <folding>
+            <element signature="e#1762#1763#0" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+            <element signature="e#2227#2228#0" expanded="true" />
+            <element signature="e#2671#2672#0" expanded="true" />
+            <element signature="e#2742#2743#0" expanded="true" />
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4085#4086#0" expanded="true" />
+            <element signature="e#4504#4505#0" expanded="true" />
+            <element signature="e#4572#4573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="42" column="63" lean-forward="true" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beauty-of-java-concurrency/src/main/java/com/demo/basic/ThreadLocalDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter2AtomicOperationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="381" column="16" selection-start-line="381" selection-start-column="16" selection-end-line="381" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4MultiThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="281" column="30" selection-start-line="281" selection-start-column="30" selection-end-line="281" selection-end-column="30" />
+          <folding>
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+            <element signature="e#37304#37305#0" expanded="true" />
+            <element signature="e#37347#37348#0" expanded="true" />
+            <element signature="e#66012#66013#0" expanded="true" />
+            <element signature="e#66038#66039#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4ThreadPriorityDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="66" column="15" lean-forward="true" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4ThreadInterruptionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4ThreadStateDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chapter4ThreadShutdownDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/SleepUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -857,7 +1051,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>beauty-of-java-concurrency</last-edited>
+          <last-edited>art-of-java-concurrency</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
