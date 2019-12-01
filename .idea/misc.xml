@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/art-of-java-concurrency/pom.xml" />
         <option value="$PROJECT_DIR$/thinking-in-java/pom.xml" />
+        <option value="$PROJECT_DIR$/java-concurrency-in-practice/pom.xml" />
       </list>
     </option>
   </component>
