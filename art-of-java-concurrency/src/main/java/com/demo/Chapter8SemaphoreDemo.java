@@ -3,6 +3,7 @@ package com.demo;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.TimeUnit;
 
 public class Chapter8SemaphoreDemo {
     private static int THREAD_COUNT = 100;
@@ -38,10 +39,15 @@ public class Chapter8SemaphoreDemo {
                 @Override
                 public void run() {
                     if (semaphore.tryAcquire()) {
+                        try {
+                            TimeUnit.SECONDS.sleep(1);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
                         System.out.println(Thread.currentThread().getName() + " saved data");
                         semaphore.release();
                     } else {
-                        System.out.println(Thread.currentThread().getName() + " is trying to acquire permit");
+                        System.out.println(Thread.currentThread().getName() + " failed to acquire permit");
                     }
                 }
             });
