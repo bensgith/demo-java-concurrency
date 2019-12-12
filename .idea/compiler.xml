@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="art-of-java-concurrency" />
         <module name="beauty-of-java-concurrency" />
+        <module name="core-methods-and-frameworks" />
         <module name="java-concurrency-in-practice" />
         <module name="thinking-in-java" />
       </profile>
