@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8233f235-0bee-4791-b1cc-23da28d4664a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thinking-in-java/src/main/java/com/demo/CyclicBarrierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/MainTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8233f235-0bee-4791-b1cc-23da28d4664a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/art-of-java-concurrency/target/" />
     <ignored path="$PROJECT_DIR$/thinking-in-java/target/" />
     <ignored path="$PROJECT_DIR$/java-concurrency-in-practice/target/" />
+    <ignored path="$PROJECT_DIR$/core-methods-and-frameworks/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="192">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,14 +41,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chicken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="240">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
+                <element signature="e#522#523#0" expanded="true" />
                 <element signature="e#541#542#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-concurrency-in-practice/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" selection-start-line="10" selection-end-line="23" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-methods-and-frameworks/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -115,19 +130,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="259" column="11" selection-start-line="259" selection-start-column="11" selection-end-line="259" selection-end-column="11" />
-              <folding>
-                <element signature="e#7388#7389#0" expanded="true" />
-                <element signature="e#7427#7428#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
@@ -178,21 +180,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/PriorityBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="190" column="11" selection-start-line="190" selection-start-column="11" selection-end-line="190" selection-end-column="11" />
-              <folding>
-                <element signature="e#6227#6228#0" expanded="true" />
-                <element signature="e#6279#6280#0" expanded="true" />
-                <element signature="e#6714#6715#0" expanded="true" />
-                <element signature="e#6757#6758#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -233,7 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/basic/RunnableDemo.java" />
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/advance/AtomicDemo.java" />
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/advance/AtomicLongDemo.java" />
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/advance/CopyOnWriteArrayListDemo.java" />
@@ -284,6 +270,7 @@
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/SleepUtils.java" />
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/MainTest.java" />
         <option value="$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chicken.java" />
+        <option value="$PROJECT_DIR$/core-methods-and-frameworks/pom.xml" />
       </list>
     </option>
   </component>
@@ -327,37 +314,18 @@
           <expand>
             <path>
               <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="art-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="core-methods-and-frameworks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="art-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="core-methods-and-frameworks" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="art-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="art-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="core-methods-and-frameworks" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="art-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-of-java-concurrency" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
@@ -380,210 +348,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-concurrency-in-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinking-in-java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinking-in-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinking-in-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinking-in-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinking-in-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinking-in-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="CyclicBarrierDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinking-in-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="OrnamentalGarden.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinking-in-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ToastOMatic.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="time" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="time" type="462c0819:PsiDirectoryNode" />
-              <item name="chrono" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="time" type="462c0819:PsiDirectoryNode" />
-              <item name="format" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="time" type="462c0819:PsiDirectoryNode" />
-              <item name="temporal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="time" type="462c0819:PsiDirectoryNode" />
-              <item name="zone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="zip" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="tools.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="tools.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="tools.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="tools.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="tools.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="javac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="tools.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="javac" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -793,16 +557,15 @@
       <updated>1574270995478</updated>
       <workItem from="1574271004355" duration="2069000" />
       <workItem from="1574318336577" duration="116628000" />
-      <workItem from="1575565189688" duration="17955000" />
+      <workItem from="1575565189688" duration="18213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136652000" />
+    <option name="totallyTimeSpent" value="136910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -840,20 +603,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -1326,22 +1075,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/MainTest.java">
+    <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chicken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/Chicken.java">
+    <entry file="file://$PROJECT_DIR$/java-concurrency-in-practice/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        <state relative-caret-position="160">
+          <caret line="10" selection-start-line="10" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-methods-and-frameworks/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/art-of-java-concurrency/src/main/java/com/demo/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
-            <element signature="e#541#542#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1398,7 +1162,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>java-concurrency-in-practice</last-edited>
+          <last-edited>core-methods-and-frameworks</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
